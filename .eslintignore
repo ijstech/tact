@@ -1,5 +1,7 @@
 node_modules/
 dist/
+bundle/
+esbuild.bundle.js
 coverage/
 **/output/
 src/test/**/output/
