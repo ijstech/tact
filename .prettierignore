@@ -7,3 +7,5 @@ src/grammar/next/grammar.ts
 /src/imports/stdlib.ts
 /grammar
 /docs
+/bundle
+/types

@@ -1,9 +1,14 @@
-import { Address, beginCell, Cell, toNano } from "@ton/core";
+import {
+    Address,
+    beginCell,
+    Cell,
+    toNano,
+    paddedBufferToBits,
+} from "@ton/core";
 import { Blockchain, SandboxContract, TreasuryContract } from "@ton/sandbox";
 import { IntrinsicsTester } from "./contracts/output/intrinsics_IntrinsicsTester";
 import { sha256_sync } from "@ton/crypto";
 import "@ton/test-utils";
-import { paddedBufferToBits } from "@ton/core/dist/boc/utils/paddedBits";
 
 describe("intrinsics", () => {
     let blockchain: Blockchain;
