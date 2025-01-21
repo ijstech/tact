@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    "declaration": true,
+    "emitDeclarationOnly": true,
+    "outFile": "./types/index.d.ts",
+    "moduleResolution": "node",
+    "module": "CommonJS",
+    "target": "esnext",
+    "esModuleInterop": true,
+    "baseUrl": "./",
+    "paths": {
+      "@ton/core": ["node_modules/@ijstech/ton-core"]
+    }
+  },
+  "include": ["src/**/*.ts"],
+  "exclude": ["node_modules", "src/**/*.spec.ts", "src/test"]
+}

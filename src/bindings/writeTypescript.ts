@@ -49,8 +49,8 @@ export function writeTypescript(
         args: ABIArgument[];
         prefix?:
             | {
-                  value: number;
-                  bits: number;
+                  value?: number;
+                  bits?: number;
               }
             | undefined;
     },
@@ -158,7 +158,10 @@ export function writeTypescript(
             ),
         }));
         const allocation = allocate({
-            reserved: { bits: init.prefix ? init.prefix.bits : 0, refs: 1 },
+            reserved: {
+                bits: init.prefix ? (init.prefix.bits ?? 0) : 0,
+                refs: 1,
+            },
             ops,
         });
         writeStruct(argTypeName, init.args, false, w);

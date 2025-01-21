@@ -1,4 +1,4 @@
-import { beginCell, Cell, Dictionary } from "@ton/core";
+import { ABIArgument, beginCell, Cell, Dictionary } from "@ton/core";
 import { decompileAll } from "@tact-lang/opcode";
 import { writeTypescript } from "../bindings/writeTypescript";
 import { featureEnable } from "../config/features";
@@ -347,7 +347,7 @@ export async function build(args: {
                 code: pkg.code,
                 prefix: pkg.init.prefix,
                 system: pkg.init.deployment.system,
-                args: pkg.init.args,
+                args: pkg.init.args as ABIArgument[],
             });
             project.writeFile(
                 project.resolve(

@@ -394,9 +394,9 @@
     "@cspell/dict-shell" "1.1.0"
 
 "@cspell/dict-companies@^3.1.12":
-  version "3.1.12"
-  resolved "https://registry.npmjs.org/@cspell/dict-companies/-/dict-companies-3.1.12.tgz#f19607c830863169ef415ad5582f610147916793"
-  integrity sha512-99FxBNdLOQc3nVQ663Xh7JqDLbIy/AdqOecQ5bk3HpmXpSkoDvTT7XCUU5nQZvmFBrrQlXFKlRRYjLfTEOUDdA==
+  version "3.1.13"
+  resolved "https://registry.npmjs.org/@cspell/dict-companies/-/dict-companies-3.1.13.tgz#dd99c462076cdad9a62918a9c4a53865a32f2c6f"
+  integrity sha512-EAaFMxnSG4eQKup9D81EnWAYIzorLWG7b7Zzf+Suu0bVeFBpCYESss/EWtnmb5ZZNfKAGxtoMqfL3vRfyJERIQ==
 
 "@cspell/dict-cpp@^6.0.3":
   version "6.0.3"
@@ -423,10 +423,10 @@
   resolved "https://registry.npmjs.org/@cspell/dict-dart/-/dict-dart-2.3.0.tgz#2bc39f965712c798dce143cafa656125ea30c0d8"
   integrity sha512-1aY90lAicek8vYczGPDKr70pQSTQHwMFLbmWKTAI6iavmb1fisJBS1oTmMOKE4ximDf86MvVN6Ucwx3u/8HqLg==
 
-"@cspell/dict-data-science@^2.0.6":
-  version "2.0.6"
-  resolved "https://registry.npmjs.org/@cspell/dict-data-science/-/dict-data-science-2.0.6.tgz#62d4c85dca23b6c847864fbb056263750a1d82ba"
-  integrity sha512-gOYKZOg358yhnnQfr1/f232REmjeIymXUHJdrLEMPirluv2rzMWvEBBazqRVQ++jMUNg9IduVI0v096ZWMDekA==
+"@cspell/dict-data-science@^2.0.6", "@cspell/dict-data-science@^2.0.7":
+  version "2.0.7"
+  resolved "https://registry.npmjs.org/@cspell/dict-data-science/-/dict-data-science-2.0.7.tgz#3939bd105ef9ee487272e8b25e3433e7f03a6b91"
+  integrity sha512-XhAkK+nSW6zmrnWzusmZ1BpYLc62AWYHZc2p17u4nE2Z9XG5DleG55PCZxXQTKz90pmwlhFM9AfpkJsYaBWATA==
 
 "@cspell/dict-django@^4.1.4":
   version "4.1.4"
@@ -449,9 +449,9 @@
   integrity sha512-MAUqlMw73mgtSdxvbAvyRlvc3bYnrDqXQrx5K9SwW8F7fRYf9V4vWYFULh+UWwwkqkhX9w03ZqFYRTdkFku6uA==
 
 "@cspell/dict-en-common-misspellings@^2.0.8":
-  version "2.0.8"
-  resolved "https://registry.npmjs.org/@cspell/dict-en-common-misspellings/-/dict-en-common-misspellings-2.0.8.tgz#22b7e7dbd06271b899b7994317834f01af20eec3"
-  integrity sha512-l1u/pDjwrPyWwBd1hCkZhdsK8yLbLFPD2xWz+1tFFI7WaV9ckDZoF3woRc/0wFGRy53yrfSAVuwhoYOQnHe/fA==
+  version "2.0.9"
+  resolved "https://registry.npmjs.org/@cspell/dict-en-common-misspellings/-/dict-en-common-misspellings-2.0.9.tgz#0b123d2e46a16ef4cd3838c2ef3e9a50d8d6433e"
+  integrity sha512-O/jAr1VNtuyCFckbTmpeEf43ZFWVD9cJFvWaA6rO2IVmLirJViHWJUyBZOuQcesSplzEIw80MAYmnK06/MDWXQ==
 
 "@cspell/dict-en-gb@1.1.33":
   version "1.1.33"
@@ -459,9 +459,9 @@
   integrity sha512-tKSSUf9BJEV+GJQAYGw5e+ouhEe2ZXE620S7BLKe3ZmpnjlNG9JqlnaBhkIMxKnNFkLY2BP/EARzw31AZnOv4g==
 
 "@cspell/dict-en_us@^4.3.29":
-  version "4.3.29"
-  resolved "https://registry.npmjs.org/@cspell/dict-en_us/-/dict-en_us-4.3.29.tgz#522e3e4f7023dca5a89610a468367c1a6ccadc27"
-  integrity sha512-7kHP0sJ271oS5RqakxvhWvHFoCUFCBDV6+cgIRIpKwW0aYVB4F2AwElGsdeE/XEmihhYUje7e/e6X3IEWHrcrQ==
+  version "4.3.30"
+  resolved "https://registry.npmjs.org/@cspell/dict-en_us/-/dict-en_us-4.3.30.tgz#6256eb7835369a295d2f7ac96867a18db5c17d72"
+  integrity sha512-p0G5fByj5fUnMyFUlkN3kaqE3nuQkqpYV47Gn9n8k2TszsdLY55xj9UoFE4YIcjOiyU1bR/YDJ5daiPMYXTJ/A==
 
 "@cspell/dict-filetypes@^3.0.10":
   version "3.0.10"
@@ -504,9 +504,9 @@
   integrity sha512-Mt+7NwfodDwUk7423DdaQa0YaA+4UoV3XSxQwZioqjpFBCuxfvvv4l80MxCTAAbK6duGj0uHbGTwpv8fyKYPKg==
 
 "@cspell/dict-google@^1.0.5":
-  version "1.0.5"
-  resolved "https://registry.npmjs.org/@cspell/dict-google/-/dict-google-1.0.5.tgz#b15cf9e03432db57a2d1ecd8e4650488b31414f8"
-  integrity sha512-KNrzfUsoFat94slWzo36g601sIGz6KtE4kBMM0gpqwFLK/MXRyaW65IL4SwysY0PEhuRzg9spLLMnUXuVcY2hQ==
+  version "1.0.7"
+  resolved "https://registry.npmjs.org/@cspell/dict-google/-/dict-google-1.0.7.tgz#cfd97dda4b410588ddf9de80f483e14b9b3c16ef"
+  integrity sha512-2ArNqLFUbjhzpPEMLiUUZKDpM4kBd3iWem6OPAp9PKIPhPsEQkkWJFLE5e0X68TdUUPH+ISM9BVmsB9GyRQBng==
 
 "@cspell/dict-haskell@^4.0.5":
   version "4.0.5"
@@ -599,11 +599,11 @@
   integrity sha512-1Wdp/XH1ieim7CadXYE7YLnUlW0pULEjVl9WEeziZw3EKCAw8ZI8Ih44m4bEa5VNBLnuP5TfqC4iDautAleQzQ==
 
 "@cspell/dict-python@^4.2.14":
-  version "4.2.14"
-  resolved "https://registry.npmjs.org/@cspell/dict-python/-/dict-python-4.2.14.tgz#27024cad8f9cfa8f72956dfa7347833059e553b4"
-  integrity sha512-NZ/rsTH5gqTlEwbSg0vn5b1TsyzrUvA6ykwCVCwsVDdlQAS82cyDsF9JqHp8S4d6PFykmkfSxtAXYyOUr0KCbg==
+  version "4.2.15"
+  resolved "https://registry.npmjs.org/@cspell/dict-python/-/dict-python-4.2.15.tgz#97c2d3ce3becc4dcb061f444232e903f9723cd16"
+  integrity sha512-VNXhj0Eh+hdHN89MgyaoSAexBQKmYtJaMhucbMI7XmBs4pf8fuFFN3xugk51/A4TZJr8+RImdFFsGMOw+I4bDA==
   dependencies:
-    "@cspell/dict-data-science" "^2.0.6"
+    "@cspell/dict-data-science" "^2.0.7"
 
 "@cspell/dict-r@^2.1.0":
   version "2.1.0"
@@ -631,9 +631,9 @@
   integrity sha512-D/xHXX7T37BJxNRf5JJHsvziFDvh23IF/KvkZXNSh8VqcRdod3BAz9VGHZf6VDqcZXr1VRqIYR3mQ8DSvs3AVQ==
 
 "@cspell/dict-software-terms@^4.2.2":
-  version "4.2.2"
-  resolved "https://registry.npmjs.org/@cspell/dict-software-terms/-/dict-software-terms-4.2.2.tgz#49696a9c68e5bde58cedb346d20783775e92cadd"
-  integrity sha512-cgteXRzx2W/Ug7QSdFJrVxLES7krrZEjZ9J6sXRWOsVYFpgu2Gup8NKmjKOZ8NTnCjHQFrMnbmKdv56q9Kwixw==
+  version "4.2.4"
+  resolved "https://registry.npmjs.org/@cspell/dict-software-terms/-/dict-software-terms-4.2.4.tgz#3bc651f2fc49bb2d2ffe5b2ec762d67d3565e342"
+  integrity sha512-GRkuaFfjFHPYynyRMuisKyE3gRiVK0REClRWfnH9+5iCs5TKDURsMpWJGNsgQ6N5jAKKrtWXVKjepkDHjMldjQ==
 
 "@cspell/dict-sql@^2.2.0":
   version "2.2.0"
@@ -750,6 +750,13 @@
   version "2.2.5"
   resolved "https://registry.npmjs.org/@iarna/toml/-/toml-2.2.5.tgz#b32366c89b43c6f8cefbdefac778b9c828e3ba8c"
   integrity sha512-trnsAYxU3xnS1gPHPyU961coFyLkh4gAD/0zQ5mymY4yOZ+CYvsPqUbOFSw0aDM4y0tV7tiFxL/1XfXPNC6IPg==
+
+"@ijstech/ton-core@https://github.com/ijstech/ton-core.git":
+  version "0.58.1"
+  resolved "https://github.com/ijstech/ton-core.git#1972f13874cd1d134d9e1f68916cb3e03af8a4d3"
+  dependencies:
+    Buffer "^0.0.0"
+    symbol.inspect "1.0.1"
 
 "@inquirer/checkbox@^4.0.6":
   version "4.0.6"
@@ -1448,13 +1455,6 @@
   resolved "https://registry.npmjs.org/@tact-lang/ton-jest/-/ton-jest-0.0.4.tgz#c87604669ed0c6b4ba1a2e6f06616e267f7fc8ca"
   integrity sha512-FWjfiNvhMlE44ZLLL7tgmHbrszMTPMttmYiaTekf1vwFXV3uAOawM8xM9NldYaCVs9eh8840PjgISdMMUTCSCw==
 
-"@ton/core@0.59.1":
-  version "0.59.1"
-  resolved "https://registry.npmjs.org/@ton/core/-/core-0.59.1.tgz#fe568069ccdf2f4191da1eadc930076c0c012789"
-  integrity sha512-SxFBAvutYJaIllTkv82vbHTJhJI6NxzqUhi499CDEjJEZ9i6i9lHJiK2df4dlLAb/4SiWX6+QUzESkK4DEdnCw==
-  dependencies:
-    symbol.inspect "1.0.1"
-
 "@ton/crypto-primitives@2.1.0":
   version "2.1.0"
   resolved "https://registry.npmjs.org/@ton/crypto-primitives/-/crypto-primitives-2.1.0.tgz#8c9277c250b59aae3c819e0d6bd61e44d998e9ca"
@@ -2118,9 +2118,9 @@ camelcase@^8.0.0:
   integrity sha512-8WB3Jcas3swSvjIeA2yvCJ+Miyz5l1ZmB6HFb9R1317dt9LCQoswg/BGrmAmkWVEszSrrg4RwmO46qIm2OEnSA==
 
 caniuse-lite@^1.0.30001688:
-  version "1.0.30001692"
-  resolved "https://registry.npmjs.org/caniuse-lite/-/caniuse-lite-1.0.30001692.tgz#4585729d95e6b95be5b439da6ab55250cd125bf9"
-  integrity sha512-A95VKan0kdtrsnMubMKxEKUKImOPSuCpYgxSQBo036P5YYgVIcOYJEgt/txJWqObiRQeISNCfef9nvlQ0vbV7A==
+  version "1.0.30001695"
+  resolved "https://registry.npmjs.org/caniuse-lite/-/caniuse-lite-1.0.30001695.tgz#39dfedd8f94851132795fdf9b79d29659ad9c4d4"
+  integrity sha512-vHyLade6wTgI2u1ec3WQBxv+2BrTERV28UXQu9LO6lZ9pYeMk34vjXFLOxo1A4UBA8XTL4njRQZdno/yYaSmWw==
 
 capital-case@^1.0.4:
   version "1.0.4"
@@ -4245,9 +4245,9 @@ kleur@^3.0.3:
   integrity sha512-eTIzlVOSUR+JxdDFepEYcBMtZ9Qqdef+rnzWdRZuMbOywu5tO2w2N7rqjoANZ5k9vywhL6Br1VRjUIgTQx4E8w==
 
 knip@^5.24.1:
-  version "5.42.1"
-  resolved "https://registry.npmjs.org/knip/-/knip-5.42.1.tgz#dacd01cb104702851ff2140233f08c1680cbb195"
-  integrity sha512-xTnwo0I5TLAEU1BNqi8EwnvxI/5yJUJmBiXJdnS0+2FDE6WQII3upoImuUbx1GxrftHmY+prqfL6XuO6JEtYBw==
+  version "5.42.2"
+  resolved "https://registry.npmjs.org/knip/-/knip-5.42.2.tgz#7f2c2078440abe7612c166b6aecedb9b690bf34f"
+  integrity sha512-hVtZ6V59COFz3Y0/BHrWMlPAx82EdX/xFHXbutIRSNfJFPMGmIpxLBWTg35F4XQJGwlu5uWiJf8rBYYkmlYWWQ==
   dependencies:
     "@nodelib/fs.walk" "3.0.1"
     "@snyk/github-codeowners" "1.1.0"

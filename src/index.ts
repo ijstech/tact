@@ -1,3 +1,5 @@
+/// <amd-module name="@ijstech/tact" />
+
 export { enableFeatures, build } from "./pipeline/build";
 export { precompile } from "./pipeline/precompile";
 export {

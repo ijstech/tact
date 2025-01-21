@@ -6,6 +6,7 @@ module.exports = {
         "/dist/",
         "/bundle/",
         "/esbuild.bundle.js/",
+        "/types/",
     ],
     maxWorkers: "50%",
     globalSetup: "./jest.setup.js",

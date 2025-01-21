@@ -2,9 +2,11 @@ node_modules/
 dist/
 bundle/
 esbuild.bundle.js
+types/
 coverage/
 **/output/
 src/test/**/output/
+**/**.spec.ts
 src/test/e2e-emulated/map-tests/build
 src/func/funcfiftlib.js
 **/grammar.ohm*.ts

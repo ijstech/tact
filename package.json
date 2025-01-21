@@ -37,7 +37,8 @@
     "postinstall": "node .husky/install.mjs || true",
     "prepack": "pinst --disable",
     "postpack": "pinst --enable",
-    "bundle": "rm -rf bundle && yarn build && node esbuild.bundle.js"
+    "build:types": "tsc --project tsconfig.types.json",
+    "bundle": "rm -rf bundle && rm -rf dist && yarn build && rm -rf types && yarn build:types && node esbuild.bundle.js"
   },
   "files": [
     "dist/**/*",
@@ -46,19 +47,18 @@
     "stdlib/**/*",
     "!**/test",
     "!/docs",
-    "!**/*.build.ts"
+    "!**/*.build.ts",
+    "bundle"
   ],
   "main": "./dist/index.js",
   "types": "./dist/index.d.ts",
-  "pluginTypes": "./dist/index.d.ts",
-  "plugin": "dist",
   "bin": {
     "tact": "bin/tact.js",
     "unboc": "bin/unboc.js"
   },
   "dependencies": {
+    "@ijstech/ton-core": "https://github.com/ijstech/ton-core.git",
     "@tact-lang/opcode": "^0.0.18",
-    "@ton/core": "0.59.1",
     "@ton/crypto": "^3.2.0",
     "@tonstudio/parser-runtime": "^0.0.1",
     "blockstore-core": "1.0.5",
