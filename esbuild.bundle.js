@@ -65,7 +65,18 @@ esbuild
         target: "esnext",
         format: "cjs",
         platform: "node",
-        external: ["@ton/core"],
+        plugins: [
+            {
+                name: "alias",
+                setup(build) {
+                    build.onResolve({ filter: /^@ton\/core$/ }, () => {
+                        return {
+                            path: require.resolve("@ijstech/ton-core"),
+                        };
+                    });
+                },
+            },
+        ],
     })
     .then(async () => {
         console.log("Bundling completed!");
