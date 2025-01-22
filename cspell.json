@@ -134,7 +134,8 @@
     "varuint",
     "workchain",
     "xffff",
-    "привет"
+    "привет",
+    "ijstech"
   ],
   "ignoreRegExpList": [
     "\\b[xB]\\{[a-fA-F0-9]*_?\\}", // binary literals in Fift-asm
