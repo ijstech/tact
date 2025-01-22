@@ -1,6 +1,6 @@
 import * as changeCase from "change-case";
 import { Writer } from "../utils/Writer";
-import { ABIArgument, ABIType, ContractABI } from "@ton/core";
+import { ABIArgument, ABIType, ContractABI } from "@scom/ton-core";
 import {
     writeArgumentToStack,
     writeDictParser,
@@ -78,7 +78,7 @@ export function writeTypescript(
             ABIReceiver,
             TupleBuilder,
             DictionaryValue
-        } from '@ton/core';
+        } from '@scom/ton-core';
     `);
     w.append();
 

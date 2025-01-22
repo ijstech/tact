@@ -9,7 +9,7 @@
     "esModuleInterop": true,
     "baseUrl": "./",
     "paths": {
-      "@ton/core": ["node_modules/@ijstech/ton-core"]
+      "@ton/core": ["node_modules/@scom/ton-core"]
     }
   },
   "include": ["src/**/*.ts"],
