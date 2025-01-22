@@ -71,7 +71,9 @@ esbuild
                 setup(build) {
                     build.onResolve({ filter: /^@ton\/core$/ }, () => {
                         return {
-                            path: require.resolve("@ijstech/ton-core"),
+                            path: require.resolve(
+                                "@scom/ton-core/lib/index.js",
+                            ),
                         };
                     });
                 },

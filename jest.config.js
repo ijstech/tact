@@ -8,6 +8,9 @@ module.exports = {
         "/esbuild.bundle.js/",
         "/types/",
     ],
+    moduleNameMapper: {
+        "^@ton/core$": "<rootDir>/node_modules/@scom/ton-core",
+    },
     maxWorkers: "50%",
     globalSetup: "./jest.setup.js",
     globalTeardown: "./jest.teardown.js",

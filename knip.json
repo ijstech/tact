@@ -12,5 +12,5 @@
     "src/func/funcCompile.ts",
     ".github/workflows/tact*.yml"
   ],
-  "ignoreDependencies": ["@tact-lang/ton-abi", "@ijstech/ton-core", "@ton/core"]
+  "ignoreDependencies": ["@tact-lang/ton-abi", "@scom/ton-core", "@ton/core"]
 }

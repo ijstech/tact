@@ -751,12 +751,10 @@
   resolved "https://registry.npmjs.org/@iarna/toml/-/toml-2.2.5.tgz#b32366c89b43c6f8cefbdefac778b9c828e3ba8c"
   integrity sha512-trnsAYxU3xnS1gPHPyU961coFyLkh4gAD/0zQ5mymY4yOZ+CYvsPqUbOFSw0aDM4y0tV7tiFxL/1XfXPNC6IPg==
 
-"@ijstech/ton-core@https://github.com/ijstech/ton-core.git":
-  version "0.58.1"
-  resolved "https://github.com/ijstech/ton-core.git#1972f13874cd1d134d9e1f68916cb3e03af8a4d3"
-  dependencies:
-    Buffer "^0.0.0"
-    symbol.inspect "1.0.1"
+"@ijstech/components@^0.1.115":
+  version "0.1.150"
+  resolved "https://registry.npmjs.org/@ijstech/components/-/components-0.1.150.tgz#bf405395c5b67bc9468670e0ecb198ccbbcb7eeb"
+  integrity sha512-Wgk+05N8oVLlA21/91tgDoJ0RC8OkscEeDUf4qb8cWfVF++RvMiHqXgDTsWoKLF4f5VFHosx1HYtHe1F/36V9A==
 
 "@inquirer/checkbox@^4.0.6":
   version "4.0.6"
@@ -1381,6 +1379,12 @@
     semver "^7.6.3"
     string-template "^1.0.0"
 
+"@scom/ton-core@https://github.com/scom-repos/ton-core.git":
+  version "0.1.0"
+  resolved "https://github.com/scom-repos/ton-core.git#bc016526c7b4e52957bd3e024c815a507947c5a2"
+  dependencies:
+    "@ijstech/components" "^0.1.115"
+
 "@sec-ant/readable-stream@^0.4.1":
   version "0.4.1"
   resolved "https://registry.npmjs.org/@sec-ant/readable-stream/-/readable-stream-0.4.1.tgz#60de891bb126abfdc5410fdc6166aca065f10a0c"
@@ -1726,11 +1730,6 @@
   version "1.2.1"
   resolved "https://registry.npmjs.org/@ungap/structured-clone/-/structured-clone-1.2.1.tgz#28fa185f67daaf7b7a1a8c1d445132c5d979f8bd"
   integrity sha512-fEzPV3hSkSMltkw152tJKNARhOupqbH96MZWyRjNaYZOMIzbrTeQDG+MTc6Mr2pgzFQzFxAfmhGDNP5QK++2ZA==
-
-Buffer@^0.0.0:
-  version "0.0.0"
-  resolved "https://registry.npmjs.org/Buffer/-/Buffer-0.0.0.tgz#82cf8e986a2109ff6d1d6f1c436e47d07127aea4"
-  integrity sha512-+zdncl8lI5TCkARStn9F1BwcuJYofYmD0oEHe5FNfCvGfeDJwf6+dSikCdQN6BMXXmHMhNNUagBN367WST1AIQ==
 
 acorn-jsx@^5.3.2:
   version "5.3.2"
@@ -5477,11 +5476,6 @@ supports-preserve-symlinks-flag@^1.0.0:
   version "1.0.0"
   resolved "https://registry.npmjs.org/supports-preserve-symlinks-flag/-/supports-preserve-symlinks-flag-1.0.0.tgz#6eda4bd344a3c94aea376d4cc31bc77311039e09"
   integrity sha512-ot0WnXS9fgdkgIcePe6RHNk1WA8+muPa6cSjeR3V8K27q9BB1rTE3R1p7Hv0z1ZyAc8s6Vvv8DIyWf681MAt0w==
-
-symbol.inspect@1.0.1:
-  version "1.0.1"
-  resolved "https://registry.npmjs.org/symbol.inspect/-/symbol.inspect-1.0.1.tgz#e13125b8038c4996eb0dfa1567332ad4dcd0763f"
-  integrity sha512-YQSL4duoHmLhsTD1Pw8RW6TZ5MaTX5rXJnqacJottr2P2LZBF/Yvrc3ku4NUpMOm8aM0KOCqM+UAkMA5HWQCzQ==
 
 tapable@^2.2.0:
   version "2.2.1"
