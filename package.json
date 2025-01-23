@@ -57,7 +57,7 @@
     "unboc": "bin/unboc.js"
   },
   "dependencies": {
-    "@scom/ton-core": "https://github.com/scom-repos/ton-core.git",
+    "@scom/ton-core": "^0.1.1",
     "@tact-lang/opcode": "^0.0.18",
     "@ton/crypto": "^3.2.0",
     "@tonstudio/parser-runtime": "^0.0.1",
@@ -91,7 +91,7 @@
     "ajv-cli": "^5.0.0",
     "cross-env": "^7.0.3",
     "cspell": "^8.8.3",
-    "esbuild": "0.13.13",
+    "esbuild": "^0.13.13",
     "eslint": "8.56.0",
     "glob": "^8.1.0",
     "husky": "^9.1.5",
