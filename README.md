@@ -20,25 +20,34 @@ A next-gen smart contract language for TON focused on efficiency and simplicity.
 - [Tact Discussion Group](https://t.me/tactlang)
 - [Tact Updates Channel](https://t.me/tact_kitchen)
 
-## Getting started
-
-The easiest way to start is to use our [project template](https://github.com/tact-lang/tact-template) and read [getting started](https://docs.tact-lang.org).
-
-```
-git clone https://github.com/tact-lang/tact-template
-```
-
-## Installation
-
-TACT is distributed via NPM, to install tact into your project, you need:
-
-```bash
-yarn add @tact-lang/compiler
-```
-
 TACT doesn't have development environment dependencies and has everything built in. TACT's stdlib also distributed together with a compiler.
 
 For Visual Studio Code syntax support, please download the [Tact extension](https://marketplace.visualstudio.com/items?itemName=KonVik.tact-lang-vscode).
+
+## Setup and Installation
+
+To get started, follow these steps:
+
+### 1: Install the required packages using the following command:
+
+```bash
+docker-compose up install
+```
+
+### 2: Build and bundle the library using the following command:
+
+Before building the library, you need to update the `multiformats` types in `node_modules/multiformats/types/src/cid.d.ts` file.
+
+```bash
+export type MultibaseEncoder<Prefix extends string> = import('./bases/interface').MultibaseEncoder<Prefix>;
+export type MultibaseDecoder<Prefix extends string> = import('./bases/interface').MultibaseDecoder<Prefix>;
+```
+
+This command will generate a `bundle` folder with all the necessary files to use on @ijstech/compiler.
+
+```bash
+docker-compose up bundle
+```
 
 ## 10 Commandments of Tact
 

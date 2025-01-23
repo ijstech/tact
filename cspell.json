@@ -136,7 +136,8 @@
     "xffff",
     "привет",
     "ijstech",
-    "scom"
+    "scom",
+    "Multibase"
   ],
   "ignoreRegExpList": [
     "\\b[xB]\\{[a-fA-F0-9]*_?\\}", // binary literals in Fift-asm
