@@ -24,7 +24,7 @@ TACT doesn't have development environment dependencies and has everything built 
 
 For Visual Studio Code syntax support, please download the [Tact extension](https://marketplace.visualstudio.com/items?itemName=KonVik.tact-lang-vscode).
 
-## Setup and Installation
+## Setup and Installation to update tact compiler library for @ijstech/compiler
 
 To get started, follow these steps:
 
@@ -43,11 +43,12 @@ export type MultibaseEncoder<Prefix extends string> = import('./bases/interface'
 export type MultibaseDecoder<Prefix extends string> = import('./bases/interface').MultibaseDecoder<Prefix>;
 ```
 
-This command will generate a `bundle` folder with all the necessary files to use on @ijstech/compiler.
+and then run the following command:
 
 ```bash
 docker-compose up bundle
 ```
+will generate a `bundle` folder. After that copy all the files from `bundle` folder to `@ijstech/compiler/src/lib/tact-compiler` folder and then run `npm run build` to build the library.
 
 ## 10 Commandments of Tact
 

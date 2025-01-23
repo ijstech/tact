@@ -86,8 +86,8 @@ esbuild
             const types = await readFile("types/index.d.ts");
             const indexType = await readFile("dist/index.d.ts");
             const content = `declare namespace TactCompiler {
-                ${types}
-                ${indexType}
+            ${types}
+            ${indexType}
             };\n export = TactCompiler;`;
             await Fs.writeFile("bundle/index.d.ts", content, "utf8");
         } catch (e) {
