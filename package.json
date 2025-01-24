@@ -38,7 +38,8 @@
     "prepack": "pinst --disable",
     "postpack": "pinst --enable",
     "build:types": "tsc --project tsconfig.types.json",
-    "bundle": "rm -rf bundle && rm -rf dist && yarn gen:grammar && yarn gen:pack && yarn build && rm -rf types && yarn build:types && node esbuild.bundle.js"
+    "build:bundle": "node esbuild.bundle.js && node esbuild.browser.js",
+    "bundle": "rm -rf bundle && rm -rf dist && yarn gen:grammar && yarn gen:pack && yarn build && rm -rf types && yarn build:types && yarn build:bundle"
   },
   "files": [
     "dist/**/*",
@@ -92,6 +93,7 @@
     "cross-env": "^7.0.3",
     "cspell": "^8.8.3",
     "esbuild": "0.13.13",
+    "esbuild-plugins-node-modules-polyfill": "^1.6.8",
     "eslint": "8.56.0",
     "glob": "^8.1.0",
     "husky": "^9.1.5",

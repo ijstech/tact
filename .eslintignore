@@ -2,6 +2,7 @@ node_modules/
 dist/
 bundle/
 esbuild.bundle.js
+esbuild.browser.js
 types/
 coverage/
 **/output/
@@ -15,3 +16,4 @@ src/grammar/next/grammar.ts
 jest.setup.js
 jest.teardown.js
 /docs
+shim.js

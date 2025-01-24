@@ -6,6 +6,7 @@ module.exports = {
         "/dist/",
         "/bundle/",
         "/esbuild.bundle.js/",
+        "/esbuild.browser.js/",
         "/types/",
     ],
     moduleNameMapper: {
