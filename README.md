@@ -47,7 +47,7 @@ export type MultibaseDecoder<Prefix extends string> = import('./bases/interface'
 and update tslib in `node_modules/tslib/tslib.js` file for exporting data on browser
 
 ```bash
-const isModule = typeof module === "object" && typeof module.exports === "object";
+const isModule = typeof module === "object";
 isModule && (module.exports = {
 ...
 });
