@@ -36,18 +36,29 @@ docker-compose up install
 
 ### 2: Build and bundle the library using the following command:
 
-Before building the library, you need to update the `multiformats` types in `node_modules/multiformats/types/src/cid.d.ts` file.
+Before building the library,
+you need to update the `multiformats` types in `node_modules/multiformats/types/src/cid.d.ts` file
 
 ```bash
 export type MultibaseEncoder<Prefix extends string> = import('./bases/interface').MultibaseEncoder<Prefix>;
 export type MultibaseDecoder<Prefix extends string> = import('./bases/interface').MultibaseDecoder<Prefix>;
 ```
 
-and then run the following command:
+and update tslib in `node_modules/tslib/tslib.js` file for exporting data on browser
+
+```bash
+const isModule = typeof module === "object" && typeof module.exports === "object";
+isModule && (module.exports = {
+...
+});
+```
+
+then run the following command:
 
 ```bash
 docker-compose up bundle
 ```
+
 will generate a `bundle` folder. After that copy all the files from `bundle` folder to `@ijstech/compiler/src/lib/tact-compiler` folder and then run `npm run build` to build the library.
 
 ## 10 Commandments of Tact
